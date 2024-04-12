@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio DIO - Primeiros Passos Com HTML</title>
+</head>
+
+<body>
+<h1>Desafio Criar Uma Página Utilizando as Tags Aprendidas</h1>
+<hr>
+
+<h2 id="indic">Índice</h2>
+<ol>
+    <li><a href="#intro1"><h3>Introdução ao HTML na Prática</h3></a></li>
+    <ul>
+        <li><a href="#apres"><h4>Apresentando o Curso</h4></a></li>
+        <li><a href="#ferra"><h4>Ferramentas Utilizadas</h4></a></li>
+        <li><a href="#inspe"><h4>Inspetor de Elementos</h4></a></li>
+        <li><a href="#estru"><h4>Estrutura Básica do HTML</h4></a></li>
+        <li><a href="#falan"><h4>Falando Sobre Tags</h4></a></li>
+        <li><a href="#atrib"><h4>Atributos das Tags</h4></a></li>
+        <li><a href="#texto"><h4>Textos</h4></a></li>
+        <li><a href="#lista"><h4>Listas Ordenadas e Não Ordenadas</h4></a></li>
+        <li><a href="#links"><h4>Links</h4></a></li>
+        <li><a href="#mater1"><h4>Materiais de Apoio e Questionário</h4></a></li>
+        <li><a href="#exemp"><h4>Exemplos de Exibição das Tags</h4></a></li>
+    </ul>
+    <li><a href="#refer"><h3>Referências</h3></a></li>
+</ol>
+<hr>
+
+<h2>Programa do Curso Primeiros Passos com HTML</h2>
+<p><i>Este curso é parte da Formação HTML WebDeveloper</i></p>
+<hr>
+
+<h3 id="intro1">1. Introdução ao HTML Na Prática</h3>
+
+<h4 id="apres">Apresentando o Curso</h4>
+<p>Neste módulo é realizada uma apresentação do curso, aonde basicamente será uma introdução à Programação Web.</p>
+<p><small><a href="#indic">^ voltar ao índice</a></small></p><br>
+
+<h4 id="ferra">Ferramentas Utilizadas</h4>
+<p>Nesta aula é explicado e orientado a utilização da IDE <i>Visual Studio Code</i> que é uma IDE para auxiliar com
+recursos vantajosos a implementação do HTML, explica-se também que pode ser utilizado qualquer editor de textos para a
+criação do <strong>HTML</strong>. É explicado passo-a-passo a instalação do <i>Visual Studio Code</i>, bem como suas
+principais ferramentas.</p>
+<p>O Professor comenta sobre a vantagem de utilizarmos os plugins para "equipar" o <i>Visual Studio Code</i> com mais
+recursos.</p>
+<p><small><a href="#indic">^ voltar ao índice</a></small></p><br>
+
+<h4 id="inspe">Inspetor de Elementos</h4>
+<p>O <strong>Inspetor de Elementos</strong> é um recurso que pertence aos navegadores, com essa ferramenta conseguimos
+inspecionar toda a página <strong>HTML</strong> exibida e entender a estrutura de criação da página.</p>
+<p><small><a href="#indic">^ voltar ao índice</a></small></p><br>
+
+<h4 id="estru">Estrutura Básica do HTML</h4>
+<p>A estrutura básica do <strong>HTML</strong> é essencial para que sua página seja corretamente interpretada pelos
+navegadores.</p>
+<p>A estrutura básica de uma página <strong>HTML</strong> consiste em duas partes que são separadas pelas <i>tags
+<strong>&lt;head</strong>&gt; e <strong>&lt;body&gt;</strong></i> e estas devem estar dentro da <i>tag <strong>&lt;html
+&gt;</strong></i>.</p>
+<p>O arquivo principal ou seja, a primeira página, deve ser nomeado como <i>index.html</i>, isso faz com que os
+servidores de hospedagem exibam corretamente a página inicial ao receber uma requisição do <i>client</i>.</p>
+<p><small><a href="#indic">^ voltar ao índice</a></small></p><br>
+
+<h4 id="falan">Falando Sobre Tags</h4>
+<p>São explicadas as funções das seguintes tags:</p>
+<ul>
+    <li><code>&lt;html&gt;</code> - <dfn>especifica o início e o fim do arquivo HTML.</dfn></li>
+    <li><code>&lt;head&gt;</code> - <dfn>entre essas tags são usadas outras tags específicas.</dfn></li>
+    <li><code>&lt;body&gt;</code> - <dfn>é a tag que especifica todo o conteúdo exibido na página.</dfn></li>
+    <li><code>&lt;title&gt;*</code> - <dfn>define o título da página que aparece na aba do navegador.</dfn></li>
+    <li><code>&lt;i&gt;</code> - <dfn>formata o texto para itálico.</dfn></li>
+    <li><code>&lt;strong&gt;</code> - <dfn>formata o texto para negrito.</dfn></li>
+    <li><code>&lt;input&gt;</code> - <dfn>utilizada para definir campos de formulário.</dfn></li>
+    <li><code>&lt;img&gt;</code> - <dfn>insere uma imagem no conteúdo da página.</dfn></li>
+</ul>
+<p><small><a href="#indic">^ voltar ao índice</a></small></p><br>
+
+<h4 id="atrib">Atributos das Tags</h4>
+<p>Os atributos de tags são configurações específicas que a tag poderá ter. Há atributos globais, isto é, podem ser
+utilizados em várias tags e alguns atributos são específicos de uma tag.</p>
+<p><small><a href="#indic">^ voltar ao índice</a></small></p><br>
+
+<h4 id="texto">Textos</h4>
+<p>São explicadas as funções das seguintes tags:</p>
+<ul>
+    <li><code>&lt;h<i>n</i>&gt;</code> - <dfn>aonde "n" representa um número de 1 a 6, a tag &lt;h1&gt; é utilizada para
+um título de tamanho 1, o título principal, enquanto que as tags &lt;h(2 a 6)&gt; são para subtítulos, aonde quanto
+maior o número menor é o tamanho do subtítulo.</dfn></li>
+    <li><code>&lt;blockquote&gt;</code> - <dfn>é utilizada para definir que o texto é uma citação.</dfn></li>
+    <li><code>&lt;u&gt;</code> - <dfn>é utilizada para sublinhar.</dfn></li>
+    <li><code>&lt;mark&gt;</code> - <dfn>é utilizada para marcar o texto, um destaque em cor.</dfn></li>
+    <li><code>&lt;sup&gt;</code> - <dfn>utilizada para formatar o texto como sobrescrito.</dfn></li>
+</ul>
+<p><small><a href="#indic">^ voltar ao índice</a></small></p><br>
+
+<h4 id="lista">Listas Ordenadas e Não Ordenadas</h4>
+<p>São listas que podem ser numeradas ou com símbolos para cada item.</p>
+<p>Utiliza-se as seguintes tags:</p>
+<ul>
+    <li><code>&lt;ol&gt;</code> - <dfn>é utilizada para listas ordenadas.</dfn></li>
+    <li><code>&lt;ul&gt;</code> - <dfn>é utilizada para listas não ordenadas.</dfn></li>
+    <li><code>&lt;li&gt;</code> - <dfn>é utilizada para definir cada item da lista.</dfn></li>
+</ul>
+<p><small><a href="#indic">^ voltar ao índice</a></small></p><br>
+
+<h4 id="links">Links</h4>
+<p>Utiliza-se para que seja definido um link em determinado objeto da página HTML, que pode ser texto, imagem, etc.</p>
+<p>Utiliza-se as seguintes tags:</p>
+<ul>
+    <li><code>&lt;a&gt;</code> - <dfn>define o objeto a ser lincado.</dfn></li>
+</ul>
+<p><small><a href="#indic">^ voltar ao índice</a></small></p><br>
+
+<h3 id="mater1">Materiais de Apoio e Questionário</h3>
+<p>Nesta parte do curso temos o material de apoio em PowerPoint e o questionário para a conquista do Certificado.</p>
+<p><small><a href="#indic">^ voltar ao índice</a></small></p><br>
+
+<h3 id="exemp">Exemplos de Exibição das Tags</h3>
+<p>Aqui mostro como é o comportamento visual e estrutural de cada tag, usando na prática.</p>
+<ul>
+    <li><code>&lt;a&gt;</code> - <a href="https://www.google.com" target="_blank">Este é um exemplo da utilização desta
+    tag.</a></li>
+    <li><code>&lt;abbr&gt;</code> - <abbr>Este é um exemplo da utilização desta tag.</abbr></li>
+    <li><code>&lt;blockquote&gt;</code><blockquote>Este é um exemplo da utilização desta tag.</blockquote></li>
+    <li><code>&lt;del&gt;</code> - <del>Este é um exemplo da utilização desta tag.</del></li>
+    <li><code>&lt;font&gt;</code> - <font face="arial black">Este é um exemplo da utilização desta tag.</font></li>
+    <li><code>&lt;h1&gt;</code><h1>Este é um exemplo da utilização desta tag.</h1></li>
+    <li><code>&lt;h2&gt;</code><h2>Este é um exemplo da utilização desta tag.</h2></li>
+    <li><code>&lt;h3&gt;</code><h3>Este é um exemplo da utilização desta tag.</h3></li>
+    <li><code>&lt;h4&gt;</code><h4>Este é um exemplo da utilização desta tag.</h4></li>
+    <li><code>&lt;h5&gt;</code><h5>Este é um exemplo da utilização desta tag.</h5></li>
+    <li><code>&lt;h6&gt;</code><h6>Este é um exemplo da utilização desta tag.</h6></li>
+    <li><code>&lt;hr&gt;</code><hr></li>
+    <li><code>&lt;i&gt;</code> - <i>Este é um exemplo da utilização desta tag.</i></li>
+    <li><code>&lt;img&gt;</code> - <img src="midia/modelo.png" width="100px"></li>
+    <li><code>&lt;input&gt;</code> - <input type="text" value="Este é um exemplo da utilização desta tag."></li>
+    <li><code>&lt;li&gt;</code> - Este é um exemplo da utilização desta tag.</li>
+    <li><code>&lt;mark&gt;</code> - <mark>Este é um exemplo da utilização desta tag.</mark></li>
+    <li><code>&lt;ol&gt;</code><ol><li>Este é um exemplo da utilização desta tag.</li></ol></li>
+    <li><code>&lt;p&gt;</code><p>Este é um exemplo da utilização desta tag.</p></li>
+    <li><code>&lt;small&gt;</code> - <small>Este é um exemplo da utilização desta tag.</small></li>
+    <li><code>&lt;strong&gt;</code> - <strong>Este é um exemplo da utilização desta tag.</strong></li>
+    <li><code>&lt;sub&gt;</code> - <sub>Este é um exemplo da utilização desta tag.</sub></li>
+    <li><code>&lt;sup&gt;</code> - <sup>Este é um exemplo da utilização desta tag.</sup></li>
+    <li><code>&lt;u&gt;</code> - <u>Este é um exemplo da utilização desta tag.</u></li>
+    <li><code>&lt;ul&gt;</code><ul><li>Este é um exemplo da utilização desta tag.</li></ul></li>
+</ul>
+
+
+<p><small><a href="#indic">^ voltar ao índice</a></small></p><br>
+
+<h4 id="refer">2. Referências</h4>
+<p>Abaixo seguem alguns sites e vídeos que podemos nos basear para ampliar o conhecimento em HTML.</p>
+<ul>
+    <li><h5>Sites</h5></li>
+    <ul>
+        <li><a href="https://pt.wikipedia.org/wiki/HTML" target="_blank"><h6>Wikipedia</h6></a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank"><h6>Mozilla.org</h6></a></li>
+        <li><a href="https://www.w3schools.com/html/default.asp" target="_blank"><h6>W3Schools</h6></a></li>
+    </ul>
+    <li><h5>Vídeos</h5></li>
+    <ul>
+        <li><a href="https://youtu.be/4dQtz1PpY9A?si=pkk_pASpIlSH_CfA" target="_blank"><h6>Vídeo - HTML - Dicionário do
+        Programador</h6></a></li>
+        <li><a href="https://youtu.be/3oSIqIqzN3M?si=o9C0ZItBM-jSWJj7" target="_blank"><h6>Vídeo - Cinco Minutos de HTML
+        Para Iniciar em Programação</h6></a></li>
+        <li><a href="https://youtu.be/0409yssD3vk?si=tkSG6K_oUSnFPV1C" target="_blank"><h6>Vídeo - O Que é HTML e Para Quê
+        Serve?</h6></a></li>
+    </ul>
+</ul>
+<p><small><a href="#indic">^ voltar ao índice</a></small></p>
+
+</body>
+
+</html>
